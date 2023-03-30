@@ -1,19 +1,19 @@
 
-.cta{
+.a{
     margin-left: 50%;
     border-radius: 4px;
-    border: 1px solid rgb(242, 164, 29);
-    background-color: orange;
+    border: 1px solid rgb(242, 29, 171);
+    background-color: rgb(255, 0, 153);
     font-family: 'Times New Roman', Times, serif;
 }
-.cta:hover{
-    background-color: orangered;
-    border: 1px solid orangered;
+.a:hover{
+    background-color: rgb(255, 0, 166);
+    border: 1px solid rgb(255, 0, 111);
 }
 h2,h3{
     margin-left: 45%;
 }
-.card{
+.cards{
     margin-left: 45%;
 }
 ul{
@@ -21,9 +21,9 @@ ul{
 }
 li{
     font-size:x-large;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Times,'Times New Roman',  serif;
     
 }
 body{
-    background-image: linear-gradient(to right,red,orange);
+    background-image: linear-gradient(to right,rgb(255, 0, 149),rgb(255, 0, 162));
 }
