@@ -27,5 +27,5 @@ navBtn.addEventListener("click", () => {
   <h3 class='load'>Fetching and Loading the Users Data .........</h3>`;
   setTimeout(() => {
     API();
-  }, 2500);
+  }, 2600);
 });
