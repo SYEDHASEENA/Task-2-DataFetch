@@ -6,8 +6,8 @@ let API = async () => {
   let info = file.data
     .map((element) => {
       return `
-      <div class="card">
-        <div class="card-content">
+      <div class="cards">
+        <div class="cards-content">
         <ul >
         <li>${element.first_name} ${element.last_name}</li></ul>
         
@@ -19,12 +19,12 @@ let API = async () => {
   cards.innerHTML = info;
 };
 
-let navBtn = document.getElementById("click");
-navBtn.addEventListener("click", () => {
+let navigBtn = document.getElementById("click");
+navigBtn.addEventListener("click", () => {
   cards.innerHTML = `
   <h2>USERS DATA</h2>
     <br />
-  <h3 class='load'>Fetching and Loading the Data  of  Users.........</h3>`;
+  <h3 class='load'>Fetching and Loading the Users Data .........</h3>`;
   setTimeout(() => {
     API();
   }, 2600);
