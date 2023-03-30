@@ -24,7 +24,7 @@ navBtn.addEventListener("click", () => {
   cards.innerHTML = `
   <h2>USERS DATA</h2>
     <br />
-  <h3 class='load'>Fetching and Loading the Users Data .........</h3>`;
+  <h3 class='load'>Fetching and Loading the Data  of  Users.........</h3>`;
   setTimeout(() => {
     API();
   }, 2600);
